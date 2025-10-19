@@ -25,7 +25,7 @@ You will need the following materials to complete this project:
 - 2X [2" 4Ohm 5 watt Full Range Speakers](https://www.amazon.com/DWEII-Speaker-Loudspeaker-Compatible-Arduino/dp/B0CH89VKK3?th=1)
 - 3X [JST XH 2.54mm pitch 2-pin electronic computer connector IC male plugs](https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/xh-connector/) or [pre-crimped connectors with wires](https://www.amazon.com/dp/B0DFH1N4H6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1)
 - ~120cm 22ga stranded wire (if self-crimping)
-- 12X (ruthex RX-M3x5.7 threaded inserts)[https://www.ruthex.de/en/products/ruthex-gewindeeinsatz-m3-100-stuck-rx-m3x5-7-messing-gewindebuchsen]
+- 12X [ruthex RX-M3x5.7 threaded inserts](https://www.ruthex.de/en/products/ruthex-gewindeeinsatz-m3-100-stuck-rx-m3x5-7-messing-gewindebuchsen)
 - 12X [M3x6mm hex socket head cap screws](https://www.mcmaster.com/91290A111/)
 - 8X [M3x10mm hex socket head cap screws](https://www.mcmaster.com/91290A115/)
 - 4X [M3x12mm hex socket head cap screws](https://www.mcmaster.com/91290A117/)
