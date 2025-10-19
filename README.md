@@ -26,7 +26,7 @@ You will need the following materials to complete this project:
 - 3X [JST XH 2.54mm pitch 2-pin electronic computer connector IC male plugs](https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/xh-connector/) or [pre-crimped connectors with wires](https://www.amazon.com/dp/B0DFH1N4H6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1)
 - ~120cm 22ga stranded wire (if self-crimping)
 - 12X [ruthex RX-M3x5.7 threaded inserts](https://www.ruthex.de/en/products/ruthex-gewindeeinsatz-m3-100-stuck-rx-m3x5-7-messing-gewindebuchsen)
-- 12X [M3x6mm hex socket head cap screws](https://www.mcmaster.com/91290A111/)
+- 12X [M3x8mm hex socket head cap screws](https://www.mcmaster.com/91290A113/)
 - 8X [M3x10mm hex socket head cap screws](https://www.mcmaster.com/91290A115/)
 - 4X [M3x12mm hex socket head cap screws](https://www.mcmaster.com/91290A117/)
 - 8X [M3 hex nuts](https://www.mcmaster.com/90592A085/)
@@ -56,7 +56,7 @@ You will need the following materials to complete this project:
 
 McMaster Carr links/part numbers listed for common, recommended fastners, but the type or material you use is not important. Be mindful of the thread type (M3 0.5mm pitch) if using the recommended ruthex threaded inserts. 
 
-Button-top lithium ion batteries are recommended, as they provide built-in protection circuits and fit better with the spring-type contacts of the diymore battery shield. Ultmiately, if it fits it sits, so if you have 18650 batteries laying around and want to use them, try them out and see if they fit. 
+Button-top lithium ion batteries are recommended, as they provide built-in protection circuits and fit better with the spring-type contacts of the diymore battery shield. Ultimately, if it fits it sits, so if you have 18650 batteries laying around and want to use them, try them out and see if they fit. 
 
 PETG filament is strong and somewhat flexible, and has a high melting point. This is typically the same type of plastic found in soda bottles. PLA is strong, but brittle, and typically gets the best layer adhesion in a 3D printer. Whatevery you choose, try not to abuse, drop, or throw the case. The components inside are susceptible to breaking and cannot withstand a lot of impact.
 
@@ -66,7 +66,7 @@ The JST XH 2.54mm pitch 2-pin conectors are one of many types, shapes, and sizes
 
 [A good crimp is a beautfiul thing](https://iotexpert.com/jst-connector-crimping-insanity/). It is a skill that electronics builders like me develop over time, and invest a lot in tools. Consider buying pre-crimped wires if you are not confident. If you are eager to learn and practice, buy a lot of connectors and make extras! Get a good set of crimping pliers (PA-09 is my favorite) and keep your crimp hand strong!
 
-**Supports**
+**SUPPORTS**
 
 For the main body, you may need supports inside the USB-C opening, if your printer is drooping the small overhang. Other than that, this piece mostly prints as-is with good bed adhesion.
 
@@ -86,7 +86,7 @@ Before you begin, prepare your build by cutting, stripping, crimping, and solder
 
 You will need 2x pairs of wires at ~20cm for the speakers. Begin by crimping the JST male connectors on one end of the pair, and solder the wires to the contacts of each speaker. Polarity mostly doesn't matter, unless you have fixed-polarity speakers that are labeled `+` and `-`. If so, check the JST polarity configuration on the board before soldering the wires to the speakers. Another common configuration of speaker contacts has one small and one large spade-style contacts. Negative goes on the large contact.
 
-You will need a third pair of wires at ~20cm for the power cable. This is intended to be fairly long so that the panel has enough slack during assembly. Crimp the JST connector on one end, and mind the polarity. Solder the wires into one of the 5V pairs on the back of the diymore battery shield. IMO, this is the best and most stable way to do this, however, there is a very tight space to use a short USB-A to Micro-USB cable (~3"). You may need an angle adapter or a very slimline Micro-USB plug because of the lack of clearance next to the speaker, but the JST connector pair is probably the way to go since you will need them for the speakers anyways.
+You will need a third pair of wires at ~20cm for the power cable. This is intended to be fairly long so that the panel has enough slack during assembly. Crimp the JST connector on one end, and mind the polarity. Solder the wires into one of the 5V pairs on the back of the diymore battery shield. IMO, this is the best and most stable way to do this, however, there is a very tight space to use a short USB-A to Micro-USB cable (3-6"). You may need an angle adapter or a very slimline Micro-USB plug because of the lack of clearance next to the speaker, but the JST connector pair is probably the way to go since you will need them for the speakers anyways.
 
 Finally, install the inserts in the battery cradle of the body and the sides of the speaker panel. The best way to use threaded inserts is to place them in the holes, and heat them up with a soldering iron, while gently pushing them into the plastic. Make sure to let them cool before screwing anything into them. The top of the insert should be slightly below the surface to avoid shorting the grounds on the battery shield.
 
@@ -126,12 +126,12 @@ Do not tighten the screws too tight. Ideally, they should not be torqued at all,
 
 ---
 
-- Next, attach the speakers and grills to the speaker panel. The grills should go on top, with four M3x10mm screws each, through the panel, and into the speakers. Put a washer and nut on each screw and use an M3 nut driver or pair of needle-nose pliers to hold the nut while tightening the screws. Using M3 lock washers is also perfectly fine. Secure these screws tight to the panel and ensure there is no loose attachments that can vibrate. There should be enough room in the speaker cavities to get your fingers inside to attach the washers and nuts to the screws from behind. 
+- Next, attach the speakers and grills to the speaker panel. The grills should go on top, with four M3x10mm screws each, through the panel, and into the speakers. Put a washer and nut on each screw and use an M3 nut driver or pair of needle-nose pliers to hold the nut while tightening the screws. Using M3 lock washers between the washer and nut is also perfectly fine. Secure these screws tight to the panel and ensure there is no loose attachments that can vibrate. There should be enough room in the speaker cavities to get your fingers inside to attach the washers and nuts to the screws from behind. 
 - Next, insert the ESP32-Audio-Kit board onto the pegs in the top cavity of the speaker panel. In my case, there wasn't much tolerance, so I had to line up all four pegs with the holes in the circuit board before pressing down.
 - Guide the wires through the right side of the top cavity and plug in the JST connectors for both speakers, and the 5V power source. These are all labeled on the board, but here is a reference in case you have trouble reading it:
 ![ESP32-Audio-Kit Pinout](images/esp32-audio-kit-pinout.jpg)
 - Ensure that the switch on the front of the battery shield is in the `on` position and press the button on the back of the body once. If everything is connected correctly, you should be able to connect to it as a bluetooth device and start testing the sound. Make sure both speakers are working before advancing to the final steps. Once you are satisfied that everything is working correctly, press the button on the back twice to turn the power off. 
-- Insert the speaker panel into the body at a 45 degree angle until the holes on the sides of the body line up with the threaded inserts in the spaker panel. There are four M3x8mm screws on each side. I recommend screwing them in loosely until all holes are lined up and all screws have been started before tightenting them. 
+- Insert the speaker panel into the body at a 45 degree angle until the holes on the sides of the body line up with the threaded inserts in the speaker panel. There are four M3x8mm screws on each side. I recommend screwing them in loosely until all holes are lined up and all screws have been started before tightenting them. 
 - Place the panel cover over the top cavity. The cover will have four protruding, hollow pillars that will slide over the pegs that are holding the board in place. Once this is lined up correctly, you should be able to push the cover into the pegs until it is flush with the panel.
 - Finally, use the four M3x12mm screws to secure the cover to the panel. Do not force or push the screws into these holes, they should self-tap.
 
