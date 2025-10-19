@@ -11,7 +11,7 @@ Check out this video to see my fleet of speakers in action, synced together with
 
 This work is based on a few open source projects and design contributions from throughout the maker community. 
 
-- [squeezelite-esp32]([https://github.com/sle118/squeezelite-esp32?tab=readme-ov-file]) - The ESP32 firmware that makes this all possible! 
+- [squeezelite-esp32](https://github.com/sle118/squeezelite-esp32?tab=readme-ov-file) - The ESP32 firmware that makes this all possible! 
 - [EdwardKrayer's ESP32-A1S_Squeezebox_Case](https://github.com/EdwardKrayer/ESP32-A1S_Squeezebox_Case) - The files contained in this repo were built off of this design.
 
 ## Materials
